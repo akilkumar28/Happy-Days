@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		895825D51EF92E4000FDD8FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895825D41EF92E4000FDD8FB /* AppDelegate.swift */; };
-		895825D71EF92E4000FDD8FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895825D61EF92E4000FDD8FB /* ViewController.swift */; };
+		895825D71EF92E4000FDD8FB /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895825D61EF92E4000FDD8FB /* MainVC.swift */; };
 		895825DA1EF92E4000FDD8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895825D81EF92E4000FDD8FB /* Main.storyboard */; };
 		895825DC1EF92E4000FDD8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895825DB1EF92E4000FDD8FB /* Assets.xcassets */; };
 		895825DF1EF92E4000FDD8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895825DD1EF92E4000FDD8FB /* LaunchScreen.storyboard */; };
+		895825E71EF9356E00FDD8FB /* MemoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895825E61EF9356E00FDD8FB /* MemoryVC.swift */; };
+		895825E91EF9360600FDD8FB /* MemoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895825E81EF9360600FDD8FB /* MemoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		895825D11EF92E4000FDD8FB /* Happy Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895825D41EF92E4000FDD8FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		895825D61EF92E4000FDD8FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		895825D61EF92E4000FDD8FB /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		895825D91EF92E4000FDD8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895825DB1EF92E4000FDD8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		895825DE1EF92E4000FDD8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		895825E01EF92E4100FDD8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895825E61EF9356E00FDD8FB /* MemoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryVC.swift; sourceTree = "<group>"; };
+		895825E81EF9360600FDD8FB /* MemoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				895825D41EF92E4000FDD8FB /* AppDelegate.swift */,
-				895825D61EF92E4000FDD8FB /* ViewController.swift */,
+				895825D61EF92E4000FDD8FB /* MainVC.swift */,
+				895825E61EF9356E00FDD8FB /* MemoryVC.swift */,
 				895825D81EF92E4000FDD8FB /* Main.storyboard */,
 				895825DB1EF92E4000FDD8FB /* Assets.xcassets */,
 				895825DD1EF92E4000FDD8FB /* LaunchScreen.storyboard */,
 				895825E01EF92E4100FDD8FB /* Info.plist */,
+				895825E81EF9360600FDD8FB /* MemoryCell.swift */,
 			);
 			path = "Happy Days";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895825D71EF92E4000FDD8FB /* ViewController.swift in Sources */,
+				895825E91EF9360600FDD8FB /* MemoryCell.swift in Sources */,
+				895825D71EF92E4000FDD8FB /* MainVC.swift in Sources */,
+				895825E71EF9356E00FDD8FB /* MemoryVC.swift in Sources */,
 				895825D51EF92E4000FDD8FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
