@@ -61,11 +61,11 @@
 				895825D41EF92E4000FDD8FB /* AppDelegate.swift */,
 				895825D61EF92E4000FDD8FB /* MainVC.swift */,
 				895825E61EF9356E00FDD8FB /* MemoryVC.swift */,
+				895825E81EF9360600FDD8FB /* MemoryCell.swift */,
 				895825D81EF92E4000FDD8FB /* Main.storyboard */,
 				895825DB1EF92E4000FDD8FB /* Assets.xcassets */,
 				895825DD1EF92E4000FDD8FB /* LaunchScreen.storyboard */,
 				895825E01EF92E4100FDD8FB /* Info.plist */,
-				895825E81EF9360600FDD8FB /* MemoryCell.swift */,
 			);
 			path = "Happy Days";
 			sourceTree = "<group>";
@@ -310,6 +310,7 @@
 				895825E51EF92E4100FDD8FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
